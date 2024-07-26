@@ -5,16 +5,16 @@ import Table from '../components/Table';
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 
 const presetCriteria = [
-  { name: "Rata - rata UKT (non-Mandiri)", type: "Cost", weight: 0.1380597015 },
-  { name: "Akreditasi", type: "Benefit", weight: 0.1455223881 },
-  { name: "Kerjasama Internasional", type: "Benefit", weight: 0.1007462687 },
-  { name: "Jumlah UKM/KSM/ORMAWA", type: "Benefit", weight: 0.0671641791 },
-  { name: "Rasio Dosen / Mahasiswa", type: "Benefit", weight: 0.07089552239 },
-  { name: "Persentase penerimaan mahasiswa", type: "Benefit", weight: 0.08582089552 },
-  { name: "Jumlah publikasi dan citasi", type: "Benefit", weight: 0.1082089552 },
-  { name: "Skor QS world ranking", type: "Benefit", weight: 0.09701492537 },
-  { name: "World rank (QS world ranking)", type: "Cost", weight: 0.09328358209 },
-  { name: "World rank (webometrics)", type: "Cost", weight: 0.09328358209 }
+  { name: "Rata - rata UKT (non-Mandiri)", type: "cost", weight: 0.1380597015 },
+  { name: "Akreditasi", type: "benefit", weight: 0.1455223881 },
+  { name: "Kerjasama Internasional", type: "benefit", weight: 0.1007462687 },
+  { name: "Jumlah UKM/KSM/ORMAWA", type: "benefit", weight: 0.0671641791 },
+  { name: "Rasio Dosen / Mahasiswa", type: "benefit", weight: 0.07089552239 },
+  { name: "Persentase penerimaan mahasiswa", type: "benefit", weight: 0.08582089552 },
+  { name: "Jumlah publikasi dan citasi", type: "benefit", weight: 0.1082089552 },
+  { name: "Skor QS world ranking", type: "benefit", weight: 0.09701492537 },
+  { name: "World rank (QS world ranking)", type: "cost", weight: 0.09328358209 },
+  { name: "World rank (webometrics)", type: "cost", weight: 0.09328358209 }
 ];
 
 const PresetFormPage: React.FC = () => {
